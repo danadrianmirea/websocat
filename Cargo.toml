@@ -72,7 +72,7 @@ flate2 = {version = "1", optional = true}
 
 
 [target.'cfg(unix)'.dependencies]
-tokio-file-unix = "0.5.1"
+tokio-file-unix = "0.6.0"
 tokio-signal = { version = "0.2.7", optional = true }
 tokio-uds = "0.2.3"
 libc = { version = "0.2" }
